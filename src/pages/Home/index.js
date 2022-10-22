@@ -7,7 +7,7 @@ import * as Scroll from 'react-scroll'
 import Noresults from '../../assets/noResults.jpg'
 
 const Home = () => {
-    const [purpose, setpurpose] = useState('2');
+    const [purpose, setpurpose] = useState('');
     const [budget, setbudget] = useState('');
     const [mobileType, setmobileType] = useState('');
     // eslint-disable-next-line
